@@ -1,0 +1,62 @@
+.event {
+  min-height: 20vh;
+  height: 100%;
+  background-image: url("../../../assets/images/blob-shape.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.event__text {
+  padding-top: 10em;
+}
+
+.event__text .event__text__main-text {
+  /* max-width: 800px; */
+  color: #0475ce;
+}
+.event__text .event__text__sub-text {
+  max-width: 600px;
+
+  color: #292e32;
+  line-height: 1.4;
+}
+
+.event__list {
+  height: 100vh;
+  background: rgba(0, 86, 156, 0.037);
+  padding: 5rem;
+}
+
+.event__list-title {
+  color: #0475ce !important;
+}
+
+.event__list-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none !important;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: 2px 2px 40px 0px rgba(207, 207, 207, 0.22);
+  -moz-box-shadow: 2px 2px 40px 0px rgba(207, 207, 207, 0.22);
+  box-shadow: 2px 2px 40px 0px rgba(207, 207, 207, 0.22);
+}
+
+.event__list-card .card-title {
+  font-size: 1.3em;
+  color: #0475ce;
+  font-weight: 600;
+}
+
+.event__list-date {
+  color: #069ca6 !important;
+}
+
+img.event__list-image {
+  object-fit: cover;
+}
