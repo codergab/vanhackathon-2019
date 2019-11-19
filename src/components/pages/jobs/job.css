@@ -25,6 +25,7 @@
 }
 .job-card .card-footer {
   border: none;
+  background-color: rgba(219, 233, 247, 0.22);
 }
 
 .job-card .card-footer ul {
